@@ -1,0 +1,59 @@
+[
+  {
+    "id": "sixsense",
+    "nombre": "El sexto sentido",
+    "director": "M. Night Shyamalan",
+    "clasificacion": "Drama",
+    "imagen":"../img/Sexto-sentido.jpg",
+    "precio":30
+  },
+  {
+    "id": "pulpfic",
+    "nombre": "Pulp Fiction",
+    "director": "Tarantino",
+    "clasificacion": "Acción",
+    "imagen":"../img/asd.webp",
+    "precio":19
+  },
+  {
+    "id": "hp3",
+    "nombre": "Harry Potter",
+    "director": "Alfonso Cuarón",
+    "clasificacion": "Ficcion",
+    "imagen":"../img/hp3.jpg",
+    "precio":50
+  },
+  {
+    "id": "300mv",
+    "nombre": "300",
+    "director": "Zack Snyder",
+    "clasificacion": "Acción",
+    "imagen":"../img/300.jpg",
+    "precio":300
+  },
+  {
+    "id": "silencio",
+    "nombre": "El silencio de los corderos",
+    "director": "Jonathan Demme",
+    "clasificacion": "Drama",
+    "imagen":"../img/el-silencio-de-los-corderos.jpg",
+    "precio":10
+  },
+  {
+    "id": "forest",
+    "nombre": "Forest Gump",
+    "director": "Robert Zemeckis",
+    "clasificacion": "Comedia",
+    "imagen":"../img/forest-gump.jpg",
+    "precio":15
+  },
+  {
+    "id": "avengers",
+    "nombre": "Avengers",
+    "director": "Luis Buñuel",
+    "clasificacion": "Ficcion, accion",
+    "imagen":"../img/avengers.png",
+    "precio":59
+  }
+]
+
