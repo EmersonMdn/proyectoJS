@@ -8,7 +8,7 @@ const cargarPeliculas = async() => {
             datos.results.forEach(pelicula => {
 
                 const div = document.createElement('div');
-                div.className = 'col-sm-6 col-md-4 movies_list';
+                div.className = 'col-sm-6 col-md-3 movies_list';
                 div.innerHTML = `<div id="${pelicula.id}" class="img-container">
                                     <img class="img_mv" src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}" alt="">
                                 
