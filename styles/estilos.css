@@ -72,3 +72,45 @@ header{
   font-weight:bolder;
   font-family: 'Montserrat', sans-serif;
 }
+
+.footer{
+  background-color: black;
+}
+.oculto{
+  display: none;
+}
+.visible{
+  display: inline;
+}
+.login{
+  background-image:url('https://img.freepik.com/foto-gratis/fondo-abstracto-lineas-rojas_1361-3531.jpg?t=st=1651341959~exp=1651342559~hmac=719a2f4679edc881c064c17f9348cdb84fad354bbd5b0c545f6ef0118c9d89ec&w=826');
+  background-position: center;
+  padding-top:10%;
+  padding-bottom:10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.loginbox{
+  backdrop-filter: blur(3px);
+  border: solid 2px rgba(249, 9, 9, 0.234);
+  color: rgb(255, 255, 255);
+  width: 50%;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+}
+.loginbox form{
+  width: 50%;
+}
+.error-form{
+  color: red;
+  font-weight: bold;
+}
+.animate-out{
+  transform:translateY(-1000px);
+  transition: 1s;
+}

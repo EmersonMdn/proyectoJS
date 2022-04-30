@@ -1,14 +1,13 @@
 //
 // ELEMENTOS DE PAGINA
 //
- let lista = document.getElementById('listado');
+let lista = document.getElementById('listado');
 // let carrito = document.getElementById('navbarDropdownMenuLink');
 
+let mailTxt = document.getElementById('emailTxt');
+let contraseñaTxt = document.getElementById('contraseñaTxt');
+let errorInput = document.getElementById('error');
+let loginBtn = document.getElementById('loginBtn');
 
-// let pulpFiction = document.getElementsByClassName('.pulpfic');
-// let harryPotter = document.getElementById('hp3');
-// let trescientos = document.getElementById('300mv');
-// let elSilencioDLC = document.getElementById('silencio');
-// let forestGump = document.getElementById('forest');
-// let avenger = document.getElementById('avengers');
-
+let homePage = document.getElementById('homepage');
+let loginSuccess = document.getElementById('loginSuccess');

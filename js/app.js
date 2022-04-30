@@ -8,7 +8,7 @@ const cargarPeliculas = async() => {
             datos.results.forEach(pelicula => {
 
                 const div = document.createElement('div');
-                div.className = 'col-sm-6 col-md-4 movies_list';
+                div.className = 'col-sm-6 col-md-3 movies_list';
                 div.innerHTML = `<div id="${pelicula.id}" class="img-container">
                                     <img class="img_mv" src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}" alt="">
                                 
@@ -32,26 +32,28 @@ const addCart = ()=>{
     alert('hola');
 }
 }
+const entrar = ()=>{
+    document.getElementById('logWindow').className = 'animate-out';
+    setTimeout(()=>{
+            loginSuccess.className = 'oculto';
+            homePage.className = 'visible';
+    },1000)
+}
 
 cargarPeliculas();
 
 
-// await fetch('./js/movies.json')
-//         .then( (resp) => resp.json())
-//         .then( (data) => {
-//             data.forEach(movies => {
-//                 const div = document.createElement('div');
-//                 div.className = 'col-sm-6 col-md-4 movies_list';
-//                 div.innerHTML = `<div id="${movies.id}" class="img-container">
-//                                     <img class="img_mv" src="../${movies.imagen}" alt="">
-                                
-//                                 <p class="precio_mv">Comprar por $${movies.precio}</p>
-//                                 <h5 class="titulos">${movies.nombre}</h5></div>`;
 
-//                 lista.append(div);
 
-//                 let boton = document.getElementById(`${movies.id}`)
-
-//                 boton.addEventListener('click', ()=> addCart(movies.id))
-//             })
-//         })
+loginBtn.onclick = ()=>{
+    errorInput.innerHTML = '';
+    if(contraseñaTxt.value.length > 8){
+        entrar();
+    }
+    else{
+        let error = document.createElement('p');
+        error.className = 'error-form';
+        error.innerHTML = 'La contraseña debe tener mínimo 8 caracteres';
+        errorInput.append(error);
+    }
+}
