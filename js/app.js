@@ -44,7 +44,7 @@ cargarPeliculas();
 
 loginBtn.onclick = ()=>{
     errorInput.innerHTML = '';
-    if(contraseñaTxt.value.length > 8){
+    if(contraseñaTxt.value.length > 7){
         entrar();
     }
     else{
