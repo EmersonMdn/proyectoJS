@@ -42,9 +42,6 @@ const entrar = ()=>{
 
 cargarPeliculas();
 
-
-
-
 loginBtn.onclick = ()=>{
     errorInput.innerHTML = '';
     if(contraseñaTxt.value.length > 8){
